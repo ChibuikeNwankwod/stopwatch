@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #2e2e2e;
+}
+.stop-watch {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(assets/sunset\ pictures\ tropical\ island\ sunset\ pictures\ tropical\ island\ sunset.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  margin: 200px auto 0;
+  padding: 40px 0;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.stop-watch h1 {
+  font-weight: 300;
+  font-size: 60px;
+  margin-top: 60px;
+}
+.buttons {
+  /* margin-top: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons img {
+  margin: 0 20px;
+  width: 50px;
+  cursor: pointer;
+  /* font-weight: 300; */
+  border-radius: 100%;
+  background: #fff;
+  /* font-size: 40px; */
+}
+.buttons img:nth-child(2) {
+  width: 80px;
+  background-color: rgb(0, 128, 0);
+  /* background-color: orangered; */
+}
